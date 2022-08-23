@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class interactibleObject : MonoBehaviour
 {
     [SerializeField] private can_interact canInteract;
+    [SerializeField] private GameObject ciButton;
      private Player_movement pm;
     [SerializeField] UnityEvent interact;
     [SerializeField] string mensage;
@@ -33,6 +34,7 @@ public class interactibleObject : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             canExecute = true;
+            ciButton.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -40,7 +42,9 @@ public class interactibleObject : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             canExecute = false;
+            ciButton.SetActive(false);
             pm.ShowMensage("");
+
            
         }
           

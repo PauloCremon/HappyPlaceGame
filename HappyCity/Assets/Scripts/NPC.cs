@@ -8,6 +8,7 @@ using TMPro;
 public class NPC : MonoBehaviour
 {
     [SerializeField] private can_interact canInteract;
+    [SerializeField] private GameObject ciButton;
     [SerializeField] UnityEvent interact;
     [SerializeField] private GameObject DialogPanel;
     [SerializeField] private TextMeshProUGUI dialogText;
@@ -51,6 +52,7 @@ public class NPC : MonoBehaviour
             ani.SetTrigger("rise");
             canExecute = true;
             btSellPl.SetActive(true);
+            ciButton.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -60,6 +62,7 @@ public class NPC : MonoBehaviour
             canExecute = false;
             btSellPl.SetActive(false);
             Shop.SetActive(false);
+            ciButton.SetActive(false);
         }
     }
 
