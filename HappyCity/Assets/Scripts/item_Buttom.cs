@@ -26,11 +26,20 @@ public class item_Buttom : MonoBehaviour
 
     public void OpenInformatio()
     {
-        UI_Information.SetActive(!UI_Information.activeInHierarchy);
+        UI_Information.SetActive(true);
         nameItem.text = item.name;
         description.text = item.description;
         price.text = item.price_buy.ToString();
         
+
+    }
+    public void CloseInformatio()
+    {
+        UI_Information.SetActive(false);
+        nameItem.text = "";
+        description.text = "";
+        price.text = "";
+
 
     }
     public void buy()
