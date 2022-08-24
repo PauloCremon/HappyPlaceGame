@@ -14,13 +14,14 @@ public class Player_movement : MonoBehaviour
     [SerializeField] private GameObject[] itensCriados;
     [SerializeField] private GameObject[] corpo;
 
-    static public int mooney = 157;
+    static public int mooney = 200;
     private Rigidbody2D rig;
     private Animator ani;
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
+        mooney = 200;
 
     }
 
