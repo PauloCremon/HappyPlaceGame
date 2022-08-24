@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 72174
+  controlID: 77047
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 72114
+  controlID: 77033
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -417,9 +417,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4660656, y: 0.09532985, z: 77.5369}
+    m_Target: {x: -3.8946395, y: 2.37096, z: 90}
     speed: 2
-    m_Value: {x: -1.4660656, y: 0.09532985, z: 77.5369}
+    m_Value: {x: -3.8946395, y: 2.37096, z: 90}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -470,9 +470,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.541357
+    m_Target: 0.73028696
     speed: 2
-    m_Value: 4.541357
+    m_Value: 0.73028696
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -890,7 +890,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -240858
+  m_LastSelectedObjectID: -277904
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 72175
+  controlID: 77048
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -972,10 +972,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 40}
+      scrollPos: {x: 0, y: 56}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4c13fcff5e25fcff7c26fcff9256ffff8057ffff1afbffff1efbffff2cfbffff806c0000b66c0000da6c0000
+      m_ExpandedIDs: 40b3fbff70c2fbffcec6fbff42c9fbffe8c9fbff34d3fbff4c13fcff5e25fcff7c26fcff9256ffff8057ffff1afbffff1efbffff2cfbffff806c0000b66c0000da6c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1066,21 +1066,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Pa_ul\Documents\HappyPlaceGame\HappyCity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9a730000
-    m_LastClickedID: 29594
+    m_SelectedIDs: 68730000
+    m_LastClickedID: 29544
     m_ExpandedIDs: 00000000687300006c7300008a810000608300000c850000c6550100d05501001656010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1134,10 +1134,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c01cfcff
-    m_LastClickedInstanceID: -254784
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c86f0000c26f0000cc6f0000a28e000058ab0000ae6e00004679000000000000b64c0100542f0100
+    m_ExpandedInstanceIDs: c86f0000c26f0000cc6f0000a28e000058ab0000ae6e000046790000b64c0100542f010000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1161,7 +1161,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 154}
+    m_ScrollPosition: {x: 0, y: 116}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 168
@@ -1184,8 +1184,8 @@ MonoBehaviour:
     y: 0
     width: 272
     height: 626
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -1225,8 +1225,8 @@ MonoBehaviour:
     m_CachedPref: -151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -254784
-  m_LastVerticalScrollValue: 54
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
